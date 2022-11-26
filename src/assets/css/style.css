@@ -1,5 +1,5 @@
 
-/*** Globle/Base Style =>  For Disable all Defualt-Browser-Properties  **/
+/*** Globle/Base Style =>  For Disable Defualt-Browser-Properties  **/
 
 *,
 html {
@@ -15,19 +15,7 @@ html {
 *:before {
     box-sizing: border-box; 
 }
-
-ul {
-    padding: 0;
-    margin: 0;
-}
-
-ul li {
-    list-style: none;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
+ 
 h1,
 h2,
 h3,
@@ -48,93 +36,7 @@ img {
     height: auto;
     outline: none;
 }
-
-select,
-textarea,
-input {
-    outline: none;
-    border: none; 
-}
-
-textarea {
-    overflow: auto;
-    resize: none;
-    appearance: none;
-    -webkit-appearance: none; 
-}
-
-input [type="submit"] {
-    appearance: none;
-    -webkit-appearance: none;
-    border: 0px none;
-    outline: none;
-    box-shadow: none;
-    appearance: none;
-    -webkit-appearance: none; 
-}
-  
-button {
-    border: none;
-    box-shadow: none;
-}
-
-a {
-    text-decoration: none;
-    outline: none;
-}
-
-a:focus,
-a:hover,
-.btn:focus,
-.btn:hover {
-    color: inherit;
-    outline: none;
-    text-decoration: none;
-    box-shadow: none;
-    border: none;
-}
-
-button:focus {
-    outline: none;
-}
-
-form {
-    margin: 0;
-}
-
-::selection {
-    background: rgb(10, 44, 235);
-    background: var(--white);
-}
-
-::-webkit-selection {
-    background: rgb(10, 44, 235);
-    background: var(--white);
-}
-
-::-moz-selection {
-    background: rgb(10, 44, 235);
-    background: var(--white);
-}
-
-::-ms-selection {
-    background: rgb(10, 44, 235);
-    background: var(--white);
-}
-
-::-o-selection {
-    background: rgb(10, 44, 235);
-    background: var(--white);
-}
-
-
-/* 
-.clr { clear:both;}
-    clearfix { display:block; zoom:1; }
-    cearfix:after { content:""; height:0px; clear:both; visibility:hidden;  
-} 
-*/
-
+ 
 @-webkit-viewport {
     width: device-width;
 }
@@ -154,46 +56,7 @@ form {
 @viewport {
     width: device-width;
 }
-
-
-/*** Placeholder Color ***/
-
-.form-control::-webkit-input-placeholder {
-    color: var(--light-gray);
-}
-
-.form-control:-moz-placeholder {
-    color: var(--light-gray);
-}
-
-.form-control::-moz-placeholder {
-    color: var(--light-gray);
-    opacity: 1;
-}
-
-.form-control:-ms-input-placeholder {
-    color: var(--light-gray);
-}
-
-.form-control {
-    border: none;
-    outline: none;
-    border-radius: none;
-    color: var(--dark-gray);
-}
-
-.form-control:focus {
-    color: var(--black);
-    background: none;
-    border: none;
-    outline: none;
-    box-shadow: none;
-}
-
-input:-internal-autofill-selected {
-    background-color: var(--white) !important;
-}
-
+   
 body {
     -webkit-tap-highlight-color: rgba(10, 44, 235, 0.35);
     margin: 0;
@@ -259,7 +122,6 @@ body {
     display: block;
     width:100%;
 }
-
 
 .Cert-Heading {
     padding-bottom:15px;
