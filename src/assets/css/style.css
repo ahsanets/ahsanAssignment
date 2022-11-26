@@ -364,7 +364,7 @@ body {
 
 
 @media screen and (max-width: 319px) {
-.Present-NameSec h3{
+    .Present-NameSec h3{
         letter-spacing: 2px;
     }
 }
